@@ -6,8 +6,7 @@ locals {
 }
 
 module "aws_s3_bucket" {
-  source  = "SevenPicoForks/s3-bucket/aws"
-  version = "4.1.2"
+  source  = "git::https://github.com/raringgroup/terraform-aws-s3-bucket.git?ref=v0.1.0"
   context = module.context.self
 
   acl                          = var.acl

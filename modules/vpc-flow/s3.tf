@@ -2,8 +2,7 @@
 # S3 Log Storage Context
 # ------------------------------------------------------------------------------
 module "s3_log_storage_context" {
-  source     = "SevenPico/context/null"
-  version    = "2.0.0"
+  source     = "git::https://github.com/raringgroup/terraform-null-context.git?ref=v0.1.0"
   context    = module.context.self
   attributes = ["vpc-flow-logs"]
 }
