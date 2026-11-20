@@ -2,8 +2,7 @@
 # KMS Key Policy Context
 # ------------------------------------------------------------------------------
 module "kms_key_context" {
-  source  = "SevenPico/context/null"
-  version = "2.0.0"
+  source  = "git::https://github.com/raringgroup/terraform-null-context.git?ref=v0.1.0"
   context = module.s3_log_storage_context.self
   enabled = var.create_kms_key && module.context.enabled
 }
@@ -60,8 +59,7 @@ data "aws_iam_policy_document" "kms_key" {
 # KMS Key Policy
 # ------------------------------------------------------------------------------
 module "kms_key" {
-  source  = "SevenPicoForks/kms-key/aws"
-  version = "2.0.0"
+  source  = "git::https://github.com/raringgroup/terraform-aws-kms-key.git?ref=v0.1.0"
   context = module.kms_key_context.self
 
   customer_master_key_spec = "SYMMETRIC_DEFAULT"
