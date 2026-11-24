@@ -15,8 +15,8 @@
 ## ----------------------------------------------------------------------------
 
 ## ----------------------------------------------------------------------------
-##  ./examples/complete/_fixtures.us-east-1.tfvars
-##  This file contains code written by SevenPico, Inc.
+##  ./examples/tfstate/_fixtures.auto.tfvars
+##  This file contains code written by Raring Group LLC.
 ## ----------------------------------------------------------------------------
 
 
