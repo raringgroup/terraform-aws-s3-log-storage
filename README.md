@@ -396,4 +396,4 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-This module is derived from Cloud Posse's [terraform-aws-s3-log-storage](https://github.com/cloudposse/terraform-aws-s3-log-storage).
+Copyright 2026 Raring Group LLC. This module is derived from Cloud Posse's [terraform-aws-s3-log-storage](https://github.com/cloudposse/terraform-aws-s3-log-storage), Copyright 2017-2020 Cloud Posse, LLC.
