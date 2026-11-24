@@ -15,14 +15,14 @@
 ## ----------------------------------------------------------------------------
 
 ## ----------------------------------------------------------------------------
-##  ./examples/default/_fixtures.context.auto.tfvars
-##  This file contains code written by SevenPico, Inc.
+##  ./examples/tfstate/_fixtures.context.auto.tfvars
+##  This file contains code written by Raring Group LLC.
 ## ----------------------------------------------------------------------------
 enabled     = true
-namespace   = "sp"
+namespace   = "example"
 environment = "s3-storage"
 stage       = "terraform"
-domain_name = "7pi.io"
+domain_name = "example.com"
 region      = "us-east-1"
 
 #name                = ""

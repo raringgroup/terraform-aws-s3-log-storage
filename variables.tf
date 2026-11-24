@@ -169,7 +169,7 @@ variable "lifecycle_configuration_rules" {
   }))
   default     = []
   description = <<-EOT
-    A list of S3 bucket v2 lifecycle rules, as specified in [terraform-aws-s3-bucket](https://github.com/cloudposse/terraform-aws-s3-bucket)"
+    A list of S3 bucket v2 lifecycle rules, as specified in [terraform-aws-s3-bucket](https://github.com/raringgroup/terraform-aws-s3-bucket)"
     These rules are not affected by the deprecated `lifecycle_rule_enabled` flag.
     **NOTE:** Unless you also set `lifecycle_rule_enabled = false` you will also get the default deprecated rules set on your bucket.
     EOT
