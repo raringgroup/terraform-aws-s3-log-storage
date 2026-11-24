@@ -1,0 +1,13 @@
+terraform-aws-s3-log-storage
+Copyright 2026 Raring Group LLC
+
+This product includes software developed by Raring Group LLC (https://github.com/raringgroup).
+
+Portions of this software are derived from terraform-aws-s3-log-storage (https://github.com/cloudposse/terraform-aws-s3-log-storage),
+Copyright 2017-2020 Cloud Posse, LLC, licensed under the Apache License, Version 2.0.
+The _context.tf files are derived from terraform-null-label (https://github.com/cloudposse/terraform-null-label),
+Copyright 2017-2020 Cloud Posse, LLC, licensed under the Apache License, Version 2.0.
+Modifications by Raring Group LLC (compared with upstream v1.1.0):
+  - context.tf renamed to _context.tf and cloudposse/label/null replaced by terraform-null-context;
+  - main.tf now wraps the Raring Group terraform-aws-s3-bucket module instead of cloudposse/s3-bucket/aws; variables and outputs adjusted (replication, MFA delete, blocked encryption types added; object lock and prefix removed);
+  - removed variables-deprecated.tf and moved.tf; added modules/ sub-modules and examples/tfstate.
